@@ -1,6 +1,4 @@
-# put ur todo stuff here
-format 
+format:
 ```
-[ ] put x in if done and put task next to it like
-```
-[x]
+- [x] if done
+- [ ] if not done
