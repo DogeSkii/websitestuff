@@ -1,7 +1,7 @@
 @keyframes slide-up {
     0% {
         opacity: 0;
-        transform: translateX(200px);
+        transform: translateX(150px);
     }
     100% {
         opacity: 1;
@@ -11,7 +11,7 @@
 @keyframes slide-up2 {
     0% {
         opacity: 0;
-        transform: translateX(-200px);
+        transform: translateX(-150px);
     }
     100% {
         opacity: 1;
@@ -35,7 +35,21 @@
     text-align: center;
     animation: slide-up2 1s ease;
 }
+.discord{
+  /* a */
+  size: 60%;
+}
 body{
     color: rgb(255, 255, 255);
     background-color: #242424;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #202020;
+    font-size: 35px;
+    padding: 35px;
+}
+.Info{
+    text-align: center;
+    padding-top: 5px;
 }
