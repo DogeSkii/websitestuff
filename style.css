@@ -53,3 +53,17 @@ header{
     text-align: center;
     padding-top: 3px;
 }
+.About{
+   /* padding-top: 50px; */
+    font-size: 20pt !important;
+
+}
+.About1{
+    font-size: 50pt;
+    border: white;
+    border-style: groove;
+    border-bottom: hidden;
+    border-radius: 5px;
+    border-left: hidden;
+    border-right: hidden;
+}
