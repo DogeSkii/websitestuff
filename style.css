@@ -37,8 +37,9 @@
 }
 .discord{
   /* a */
-  
-  align-content: center;
+  position: absolute;
+  z-index: 2;
+  top: 400px;
 }
 body{
     color: rgb(255, 255, 255);
@@ -53,14 +54,18 @@ header{
 .Info{
     text-align: center;
     padding-top: 3px;
+    animation: slide-up 1s ease-out;
 }
 .About{
-   padding-top: 250px;
+
     font-size: 20pt !important;
+    text-align: center;
+
 
 }
 .About1{
     font-size: 50pt;
+    text-align: center;
 }
 #particles-js {
     position: absolute;
