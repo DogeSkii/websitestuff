@@ -37,7 +37,8 @@
 }
 .discord{
   /* a */
-  size: 60%;
+  
+  align-content: center;
 }
 body{
     color: rgb(255, 255, 255);
@@ -54,26 +55,21 @@ header{
     padding-top: 3px;
 }
 .About{
-   /* padding-top: 50px; */
+   padding-top: 250px;
     font-size: 20pt !important;
 
 }
 .About1{
     font-size: 50pt;
-    border: white;
-    border-style: groove;
-    border-bottom: hidden;
-    border-radius: 5px;
-    border-left: hidden;
-    border-right: hidden;
 }
 #particles-js {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: #242424;
     background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
+    z-index: -1;
 }
